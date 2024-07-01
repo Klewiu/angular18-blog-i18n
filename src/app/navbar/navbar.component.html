@@ -1,3 +1,16 @@
 <mat-toolbar>
     <img src="logo.jpg" class="logo-img">
+    <button mat-button>Courses</button>
+    <button mat-button>About</button>
+    <button mat-button>Contact</button>
+    <span class="spacer"></span>
+    <button mat-button [matMenuTriggerFor]="menu" class="language-button">
+      <span class="language-text">Language</span>
+      <mat-icon fontIcon="language"></mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><img class="language-flag" src="Flag_of_Poland.png">PL</button>
+      <button mat-menu-item><img class="language-flag" src="Flag_of_the_United_Kingdom.png">ENG</button>
+      <button mat-menu-item><img class="language-flag" src="Flag_of_Spain.png">ESP</button>
+    </mat-menu>
   </mat-toolbar>
