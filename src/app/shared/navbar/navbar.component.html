@@ -1,8 +1,8 @@
 <mat-toolbar>
     <img src="logo.jpg" class="logo-img">
-    <button mat-button>Courses</button>
-    <button mat-button>About</button>
-    <button mat-button>Contact</button>
+    <button mat-button [routerLink]="['/']" routerLinkActive="router-link-active">Courses</button>
+    <button mat-button [routerLink]="['about']" >About</button>
+    <button mat-button [routerLink]="['/contact']" >Contact</button>
     <span class="spacer"></span>
     <button mat-button [matMenuTriggerFor]="menu" class="language-button">
       <span class="language-text">Language</span>
