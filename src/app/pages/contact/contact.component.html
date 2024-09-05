@@ -1,1 +1,24 @@
-<p>contact works!</p>
+<div class="container">
+  <mat-card class="contact-us-card" appearance="outlined">
+      <mat-card-header>
+        <div mat-card-avatar class="header-image"></div>
+        <mat-card-title>Code Brothers</mat-card-title>
+        <mat-card-subtitle>We are here for You!</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image class="contact-us-img" src="contact-img.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content class="mat-content">
+        <p style="text-indent: 20px;">
+          Welcome to our contact section dedicated to Udemy programming courses!
+          We're passionate about empowering learners like you with the skills needed to excel in programming 
+          and develop modern web applications. Whether you have questions about our courses, want to share feedback, 
+          or are interested in collaborating on programming projects or creating cutting-edge web applications, 
+          we're here to support you. Reach out to us using email. 
+          Your journey into the world of programming starts here, and we're excited to be part of it with you! 
+        </p>
+      </mat-card-content>
+      <mat-card-actions class="card-actions">
+        <button mat-button (click)="redirectToUdemy()">CHECK OUR UDEMY NOW!</button>
+        <button mat-button (click)="sendEmail()">CONTACT US!</button>
+      </mat-card-actions>
+    </mat-card>
+</div>

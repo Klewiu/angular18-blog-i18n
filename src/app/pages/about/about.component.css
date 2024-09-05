@@ -1,0 +1,27 @@
+.container{
+    margin: 20px;
+}
+
+.about-us-img{
+    max-height: 350px;
+    object-fit: cover;
+   
+}
+.mat-content {
+    margin: 10px;
+}
+.card-actions{
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+.container{
+    margin: 5px;
+}
+
+.mat-content {
+    margin: 5px;
+    text-align: center;
+}
+
+}

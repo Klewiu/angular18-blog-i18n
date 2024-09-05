@@ -1,1 +1,40 @@
-<p>home works!</p>
+<!-- Marketing section -->
+<div class="home-headline-text">
+  <button mat-flat-button (click)="redirectToUdemy()">CHECK OUR UDEMY NOW!</button>
+</div>
+
+<!-- CARDS SECTION -->
+<div class="cards-div">
+  <!-- CARD CONTAINER -->
+  <div class="card-container" *ngFor="let tile of paginatedTiles" >
+    <mat-card class="course-card" appearance="outlined">
+      <!-- CARD HEADER -->
+      <div class="card-header">
+        <div class="card-title">{{ tile.title }}</div>
+        <div class="card-subtitle">{{ tile.subtitle }}</div>
+      </div>
+      <!-- IFRAME SECTION -->
+      <iframe 
+      [src]="tile.videoUrl | safeUrl"
+      width="100%" 
+      height="500px" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+      <mat-card-content>
+        <p> {{ tile.content }} </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div class="home-paginator">
+  <mat-paginator 
+    [length]="tiles.length"
+    [pageSize]="4"
+    (page)="handlePageEvent($event)">
+  </mat-paginator>
+</div>

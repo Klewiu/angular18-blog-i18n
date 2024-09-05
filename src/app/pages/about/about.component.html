@@ -1,1 +1,31 @@
-<p>about works!</p>
+<div class="container">
+    <mat-card class="about-us-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="header-image"></div>
+          <mat-card-title>Code Brothers</mat-card-title>
+          <mat-card-subtitle>Top choice for Udemy training!</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image class="about-us-img" src="about_us_img.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content class="mat-content">
+          <p style="text-indent: 20px;">
+            Hi there! We are Tomasz and Jakub - the <span style="font-weight: 600;">Code Brothers</span>, a dynamic duo of twin brother programmers passionate about web technologies. 
+            With expertise in frameworks like Django, Angular, and React, we craft innovative digital solutions that make a real impact.
+            Our favorite tools – Django, Angular, and React – enable us to create stunning websites and applications. 
+            We love Angular for its power and the fun it brings to web development.
+            For more complex projects, Django is our go-to, ensuring everything runs smoothly and efficiently. 
+            And when speed is of the essence, Firebase helps us bring our ideas to life quickly.
+          </p>
+          <p>
+            But our journey doesn’t stop at building projects. We’re also dedicated to teaching and sharing our knowledge through courses on Udemy.
+            We strive to make learning accessible and enjoyable, helping newcomers and seasoned developers alike to enhance their skills and embark 
+            on exciting coding adventures.
+          </p>
+          <p>
+            Join us on this thrilling journey into the world of technology. Together, we can build amazing things, one step at a time!
+          </p>
+        </mat-card-content>
+        <mat-card-actions class="card-actions">
+          <button mat-button (click)="redirectToUdemy()">CHECK OUR UDEMY NOW!</button>
+        </mat-card-actions>
+      </mat-card>
+</div>
