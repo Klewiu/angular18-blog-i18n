@@ -2,23 +2,21 @@
   <mat-card class="contact-us-card" appearance="outlined">
       <mat-card-header>
         <div mat-card-avatar class="header-image"></div>
-        <mat-card-title>Code Brothers</mat-card-title>
-        <mat-card-subtitle>We are here for You!</mat-card-subtitle>
+        <mat-card-title i18n>Code Brothers</mat-card-title>
+        <mat-card-subtitle i18n>Jesteśmy tu dla Ciebie!</mat-card-subtitle>
       </mat-card-header>
       <img mat-card-image class="contact-us-img" src="contact-img.jpg" alt="Photo of a Shiba Inu">
       <mat-card-content class="mat-content">
-        <p style="text-indent: 20px;">
-          Welcome to our contact section dedicated to Udemy programming courses!
-          We're passionate about empowering learners like you with the skills needed to excel in programming 
-          and develop modern web applications. Whether you have questions about our courses, want to share feedback, 
-          or are interested in collaborating on programming projects or creating cutting-edge web applications, 
-          we're here to support you. Reach out to us using email. 
-          Your journey into the world of programming starts here, and we're excited to be part of it with you! 
+        <p i18n style="text-indent: 20px;">
+          Witamy w naszej sekcji kontaktowej poświęconej kursom programowania na Udemy!
+          Z pasją wspieramy osoby takie jak Ty, pomagając zdobyć umiejętności niezbędne do osiągnięcia sukcesu w programowaniu i tworzeniu nowoczesnych aplikacji webowych.
+          Niezależnie od tego, czy masz pytania dotyczące naszych kursów, chcesz podzielić się opinią, czy jesteś zainteresowany współpracą przy projektach programistycznych lub tworzeniu nowoczesnych aplikacji internetowych, jesteśmy tu, aby Cię wesprzeć.
+          Skontaktuj się z nami za pomocą e-maila. Twoja podróż w świat programowania zaczyna się tutaj, a my jesteśmy podekscytowani, że możemy być jej częścią!
         </p>
       </mat-card-content>
       <mat-card-actions class="card-actions">
-        <button mat-button (click)="redirectToUdemy()">CHECK OUR UDEMY NOW!</button>
-        <button mat-button (click)="sendEmail()">CONTACT US!</button>
+        <button i18n mat-button (click)="redirectToUdemy()">SPRAWDŹ NASZ KAMAŁ UDEMY!</button>
+        <button i18n mat-button (click)="sendEmail()">SKONTAKTUJ SIĘ!</button>
       </mat-card-actions>
     </mat-card>
 </div>

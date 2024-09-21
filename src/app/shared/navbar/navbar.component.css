@@ -21,6 +21,26 @@ height: 120px;
 .language-button mat-icon {
     font-size: 20px;
 }
+
+a {
+    text-decoration: none; /* Usuwa podkreślenie */
+    color: inherit;        /* Dziedziczy kolor od rodzica, możesz ustawić inny kolor */
+  }
+  
+  a:visited {
+    text-decoration: none; /* Usuwa podkreślenie dla odwiedzonych linków */
+  }
+  
+  a:focus {
+    outline: none; /* Usuwa obramowanie wokół linków po kliknięciu */
+  }
+  
+  a:hover, a:active {
+    text-decoration: none; /* Usuwa podkreślenie podczas najechania myszką i kliknięcia */
+  }
+  
+
+
 /* MAIN PAGE MEDIA SMALL SCREEN */
 
 @media (max-width: 600px) {
@@ -34,17 +54,25 @@ height: 120px;
     }
     button[mat-button] {
         font-size: 14px;
-        padding: 0 10px;
+        padding: 0 8px;
         min-width: auto;
     }
     .mat-toolbar {
         height: 100px;
     }
     .language-button mat-icon {
-        margin: 6px;
-        font-size: 20px;
+        margin: 4px;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .mat-menu-item {
+        padding: 8px 16px;
+    }
+    .language-flag {
+        width: 16px;
+        height: 12px;
+        margin-right: 4px;
     }
 }

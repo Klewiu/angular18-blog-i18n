@@ -14,5 +14,13 @@ import {RouterLink } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-
+  openEngVersion(){
+    window.open('/en-US/', '_self');
+  }
+  openPlVersion(){
+    window.open('/pl-PL/', '_self');
+  }
+  openEspVersion(){
+    window.open('/es-ES/', '_self');
+  }
 }

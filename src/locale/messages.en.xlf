@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pl-PL" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6979030837959921764" datatype="html">
+        <source>Code Brothers</source>
+        <target>Code Brothers</target>
+      </trans-unit>
+      <trans-unit id="6278691666703649842" datatype="html">
+        <source>Twój wybór na Udemy!</source>
+        <target>Your choice on Udemy!</target>
+      </trans-unit>
+      <trans-unit id="5531763149135130847" datatype="html">
+        <source> Cześć! Jesteśmy Tomasz i Jakub – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span style=&quot;font-weight: 600;&quot;&gt;"/>Code Brothers<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, dynamiczny duet bliźniaków-programistów z pasją do technologii internetowych. Posiadamy doświadczenie w pracy z frameworkami takimi jak Django, Angular i React, dzięki czemu tworzymy innowacyjne rozwiązania cyfrowe, które naprawdę mają znaczenie. Nasze ulubione narzędzia – Django, Angular i React – umożliwiają nam tworzenie imponujących stron internetowych i aplikacji. Uwielbiamy Angulara za jego moc i przyjemność, jaką daje rozwój webowy. W bardziej złożonych projektach stawiamy na Django, które zapewnia płynność i efektywność działania. A gdy liczy się szybkość, Firebase pozwala nam szybko wdrażać nasze pomysły w życie. </source>
+        <target>Hi! We are Tomasz and Jakub – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span style=&quot;font-weight: 600;&quot;&gt;"/>Code Brothers<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, a dynamic duo of twin programmers passionate about web technologies. We have experience working with frameworks like Django, Angular, and React, allowing us to create innovative digital solutions that truly make a difference. Our favorite tools – Django, Angular, and React – enable us to build impressive websites and applications. We love Angular for its power and the joy it brings to web development. For more complex projects, we rely on Django, which provides smooth and efficient performance. And when speed is of the essence, Firebase lets us quickly bring our ideas to life.</target>
+      </trans-unit>
+      <trans-unit id="3124632964430166254" datatype="html">
+        <source> Ale nasza podróż nie kończy się na tworzeniu projektów. Jesteśmy również oddani nauczaniu i dzieleniu się naszą wiedzą poprzez kursy na Udemy. Staramy się, aby nauka była przystępna i przyjemna, pomagając zarówno początkującym, jak i doświadczonym programistom w rozwijaniu umiejętności i wyruszaniu na ekscytujące przygody z kodowaniem. </source>
+        <target>But our journey doesn&apos;t stop at creating projects. We are also committed to teaching and sharing our knowledge through courses on Udemy. We strive to make learning accessible and enjoyable, helping both beginners and experienced programmers enhance their skills and embark on exciting coding adventures.</target>
+      </trans-unit>
+      <trans-unit id="6016147437541696511" datatype="html">
+        <source> Dołącz do nas w tej ekscytującej podróży do świata technologii. Razem możemy tworzyć niesamowite rzeczy, krok po kroku! </source>
+        <target>Join us on this exciting journey into the world of technology. Together, we can create amazing things, step by step!</target>
+      </trans-unit>
+      <trans-unit id="1769085890504426145" datatype="html">
+        <source>SPRAWDŹ NAS NA UDEMY!</source>
+        <target>CHECK US OUT ON UDEMY!</target>
+      </trans-unit>
+      <trans-unit id="8331536624507934520" datatype="html">
+        <source>Jesteśmy tu dla Ciebie!</source>
+        <target>We are here for you!</target>
+      </trans-unit>
+      <trans-unit id="3927161065026085429" datatype="html">
+        <source> Witamy w naszej sekcji kontaktowej poświęconej kursom programowania na Udemy! Z pasją wspieramy osoby takie jak Ty, pomagając zdobyć umiejętności niezbędne do osiągnięcia sukcesu w programowaniu i tworzeniu nowoczesnych aplikacji webowych. Niezależnie od tego, czy masz pytania dotyczące naszych kursów, chcesz podzielić się opinią, czy jesteś zainteresowany współpracą przy projektach programistycznych lub tworzeniu nowoczesnych aplikacji internetowych, jesteśmy tu, aby Cię wesprzeć. Skontaktuj się z nami za pomocą e-maila. Twoja podróż w świat programowania zaczyna się tutaj, a my jesteśmy podekscytowani, że możemy być jej częścią! </source>
+        <target>Welcome to our contact section dedicated to programming courses on Udemy! We are passionate about supporting people like you, helping you gain the skills needed to succeed in programming and building modern web applications. Whether you have questions about our courses, want to share feedback, or are interested in collaborating on programming projects or creating modern web applications, we are here to support you. Get in touch with us via email. Your journey into the world of programming starts here, and we are excited to be part of it!</target>
+      </trans-unit>
+      <trans-unit id="4116125568591581677" datatype="html">
+        <source>SPRAWDŹ NASZ KAMAŁ UDEMY!</source>
+        <target>CHECK OUR UDEMY CHANNEL!</target>
+      </trans-unit>
+      <trans-unit id="7533188340424806796" datatype="html">
+        <source>SKONTAKTUJ SIĘ!</source>
+        <target>GET IN TOUCH!</target>
+      </trans-unit>
+      <trans-unit id="4348946485831768929" datatype="html">
+        <source>SPRAWDŹ UDEMY!</source>
+        <target>CHECK UDEMY!</target>
+      </trans-unit>
+      <trans-unit id="8886436268032629140" datatype="html">
+        <source>ANGULAR 15 + FIREBASE</source>
+        <target>ANGULAR 15 + FIREBASE</target>
+      </trans-unit>
+      <trans-unit id="1217323728064143582" datatype="html">
+        <source>Intro Kursu Udemy</source>
+        <target>Udemy Course Introduction</target>
+      </trans-unit>
+      <trans-unit id="1818329799132396221" datatype="html">
+        <source>W tym kursie nauczysz się, jak stworzyć aplikację Angular od podstaw i wdrożyć ją za pomocą Firebase. Zaimplementujemy funkcjonalność CRUD, a także omówimy temat uwierzytelniania użytkowników.</source>
+        <target>In this course, you will learn how to create an Angular application from scratch and deploy it using Firebase. We will implement CRUD functionality and cover user authentication.</target>
+      </trans-unit>
+      <trans-unit id="4625393075560458654" datatype="html">
+        <source>API - ANGULAR + DJANGO REST FRAMEWORK</source>
+        <target>API - ANGULAR + DJANGO REST FRAMEWORK</target>
+      </trans-unit>
+      <trans-unit id="2213915915257042579" datatype="html">
+        <source>W tej aplikacji, korzystając z API, stworzymy pełną aplikację full-stack, gdzie Django Rest Framework będzie obsługiwał backend, a frontend zostanie zbudowany przy użyciu Angulara. Przejdziemy przez wszystkie operacje CRUD, przetestujemy endpointy za pomocą Postmana, a na koniec zaimplementujemy uwierzytelnianie użytkowników przy użyciu tokenów.</source>
+        <target>In this application, using the API, we will create a full-stack application where Django Rest Framework will handle the backend, and the frontend will be built using Angular. We will go through all CRUD operations, test the endpoints using Postman, and finally implement user authentication using tokens.</target>
+      </trans-unit>
+      <trans-unit id="608577169346475018" datatype="html">
+        <source>Tworzenie Logowania</source>
+        <target>Creating Login</target>
+      </trans-unit>
+      <trans-unit id="6567642329177654886" datatype="html">
+        <source>Witamy w szybkim konfiguratorze uwierzytelniania w Angularze i Firebase. Naucz się, jak szybko i łatwo stworzyć funkcjonalność logowania.</source>
+        <target>Welcome to the quick authentication configurator in Angular and Firebase. Learn how to quickly and easily create a login functionality.</target>
+      </trans-unit>
+      <trans-unit id="6065203656838318315" datatype="html">
+        <source>Copyright © 2024 - Code Brothers </source>
+        <target>Copyright © 2024 - Code Brothers </target>
+      </trans-unit>
+      <trans-unit id="6989419209745235533" datatype="html">
+        <source>Kursy</source>
+        <target>Courses</target>
+      </trans-unit>
+      <trans-unit id="3925337106583791384" datatype="html">
+        <source>O nas</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="397497450705980813" datatype="html">
+        <source>Kontakt</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="2847242713388756885" datatype="html">
+        <source>
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon fontIcon=&quot;language&quot;&gt;"/>
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
+        </source>
+        <target state="new">
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon fontIcon=&quot;language&quot;&gt;"/>
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="6338178643951537335" datatype="html">
+        <source>Ta witryna wykorzystuje pliki cookies, aby zapewnić najlepsze doświadczenia podczas korzystania z tej strony</source>
+        <target state="new">This website uses cookies to ensure the best experience while using this site.</target>
+      </trans-unit>
+      <trans-unit id="4732769394260052477" datatype="html">
+        <source>Odmawiam</source>
+        <target state="new">I decline</target>
+      </trans-unit>
+      <trans-unit id="6773786754956670569" datatype="html">
+        <source>Dowiedz się więcej</source>
+        <target state="new">Learn more</target>
+      </trans-unit>
+      <trans-unit id="521173628952498293" datatype="html">
+        <source>Polityka Cookie</source>
+        <target state="new">Cookie policy</target>
+      </trans-unit>
+      <trans-unit id="6921340928954309341" datatype="html">
+        <source>Akceptuje</source>
+        <target state="new">I accept</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

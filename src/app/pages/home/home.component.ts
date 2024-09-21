@@ -25,22 +25,22 @@ export class HomeComponent implements OnInit{
 
   tiles: Tile[] = [
     {
-      title: 'ANGULAR 15 + FIREBASE',
-      subtitle: 'Udemy Course Intro',
+      title: $localize `ANGULAR 15 + FIREBASE`,
+      subtitle: $localize `Intro Kursu Udemy`,
       videoUrl: 'https://www.youtube.com/embed/HIuJI1u2ltk?si=i9m1Hjdh9FguEBTd',
-      content: 'In this course, you will learn how to create an Angular application from scratch and then deploy it using Firebase. We will implement CRUD functionality and we will also cover the topic of user authentication.'
+      content: $localize `W tym kursie nauczysz się, jak stworzyć aplikację Angular od podstaw i wdrożyć ją za pomocą Firebase. Zaimplementujemy funkcjonalność CRUD, a także omówimy temat uwierzytelniania użytkowników.`
     },
     {
-      title: 'API - ANGULAR + DJANGO REST FRAMEWORK',
-      subtitle: 'Udemy Course Intro',
+      title: $localize `API - ANGULAR + DJANGO REST FRAMEWORK`,
+      subtitle: $localize `Intro Kursu Udemy`,
       videoUrl: 'https://www.youtube.com/embed/pgkSiXiESXE?si=v_ZhukOJKl5zm1_Y',
-      content: 'In this application, using an API, we will create a full-stack application where Django Rest Framework will handle the backend, and the frontend will be built using Angular. We will go through all CRUD operations, test endpoints using Postman, and finally implement user authentication using tokens.'
+      content: $localize `W tej aplikacji, korzystając z API, stworzymy pełną aplikację full-stack, gdzie Django Rest Framework będzie obsługiwał backend, a frontend zostanie zbudowany przy użyciu Angulara. Przejdziemy przez wszystkie operacje CRUD, przetestujemy endpointy za pomocą Postmana, a na koniec zaimplementujemy uwierzytelnianie użytkowników przy użyciu tokenów.`
     },
     {
-      title: 'ANGULAR 15 + FIREBASE',
-      subtitle: 'Create Login Functionality',
+      title: $localize `ANGULAR 15 + FIREBASE`,
+      subtitle: $localize `Tworzenie Logowania`,
       videoUrl: 'https://www.youtube.com/embed/UddtyVrC9qQ?si=CMuQi_sfAcuxNxyS',
-      content: 'Welcome to a quick auth setup in Angular and Firebase. Learn how to create quickly and easily login functionality.'
+      content: $localize `Witamy w szybkim konfiguratorze uwierzytelniania w Angularze i Firebase. Naucz się, jak szybko i łatwo stworzyć funkcjonalność logowania.`
     },
   ];
 

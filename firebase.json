@@ -1,0 +1,46 @@
+{
+  "hosting": {
+    "public": "dist/angular18-blog-i18n/browser/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/en-US/**",
+        "destination": "/en-US/index.html"
+      },
+      {
+        "source": "/es-ES/**",
+        "destination": "/es-ES/index.html"
+      },
+      {
+        "source": "/pl-PL/",
+        "destination": "/pl-PL/index.html"
+        },
+      {
+        "source": "**",
+        "destination": "/pl-PL/index.html"
+        },
+
+      {
+        "source": "/sitemap",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemap.xml",
+        "destination": "/sitemap.xml"
+      }
+    ],
+
+    "i18n": {
+      "root": "/"
+    },
+
+    "frameworksBackend": {
+      "region": "europe-west1"
+    }
+  }
+}

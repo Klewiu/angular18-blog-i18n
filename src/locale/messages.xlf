@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pl-PL" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6979030837959921764" datatype="html">
+        <source>Code Brothers</source>
+      </trans-unit>
+      <trans-unit id="6278691666703649842" datatype="html">
+        <source>Twój wybór na Udemy!</source>
+      </trans-unit>
+      <trans-unit id="5531763149135130847" datatype="html">
+        <source> Cześć! Jesteśmy Tomasz i Jakub – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span style=&quot;font-weight: 600;&quot;&gt;"/>Code Brothers<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, dynamiczny duet bliźniaków-programistów z pasją do technologii internetowych. Posiadamy doświadczenie w pracy z frameworkami takimi jak Django, Angular i React, dzięki czemu tworzymy innowacyjne rozwiązania cyfrowe, które naprawdę mają znaczenie. Nasze ulubione narzędzia – Django, Angular i React – umożliwiają nam tworzenie imponujących stron internetowych i aplikacji. Uwielbiamy Angulara za jego moc i przyjemność, jaką daje rozwój webowy. W bardziej złożonych projektach stawiamy na Django, które zapewnia płynność i efektywność działania. A gdy liczy się szybkość, Firebase pozwala nam szybko wdrażać nasze pomysły w życie. </source>
+      </trans-unit>
+      <trans-unit id="3124632964430166254" datatype="html">
+        <source> Ale nasza podróż nie kończy się na tworzeniu projektów. Jesteśmy również oddani nauczaniu i dzieleniu się naszą wiedzą poprzez kursy na Udemy. Staramy się, aby nauka była przystępna i przyjemna, pomagając zarówno początkującym, jak i doświadczonym programistom w rozwijaniu umiejętności i wyruszaniu na ekscytujące przygody z kodowaniem. </source>
+      </trans-unit>
+      <trans-unit id="6016147437541696511" datatype="html">
+        <source> Dołącz do nas w tej ekscytującej podróży do świata technologii. Razem możemy tworzyć niesamowite rzeczy, krok po kroku! </source>
+      </trans-unit>
+      <trans-unit id="1769085890504426145" datatype="html">
+        <source>SPRAWDŹ NAS NA UDEMY!</source>
+      </trans-unit>
+      <trans-unit id="8331536624507934520" datatype="html">
+        <source>Jesteśmy tu dla Ciebie!</source>
+      </trans-unit>
+      <trans-unit id="3927161065026085429" datatype="html">
+        <source> Witamy w naszej sekcji kontaktowej poświęconej kursom programowania na Udemy! Z pasją wspieramy osoby takie jak Ty, pomagając zdobyć umiejętności niezbędne do osiągnięcia sukcesu w programowaniu i tworzeniu nowoczesnych aplikacji webowych. Niezależnie od tego, czy masz pytania dotyczące naszych kursów, chcesz podzielić się opinią, czy jesteś zainteresowany współpracą przy projektach programistycznych lub tworzeniu nowoczesnych aplikacji internetowych, jesteśmy tu, aby Cię wesprzeć. Skontaktuj się z nami za pomocą e-maila. Twoja podróż w świat programowania zaczyna się tutaj, a my jesteśmy podekscytowani, że możemy być jej częścią! </source>
+      </trans-unit>
+      <trans-unit id="4116125568591581677" datatype="html">
+        <source>SPRAWDŹ NASZ KAMAŁ UDEMY!</source>
+      </trans-unit>
+      <trans-unit id="7533188340424806796" datatype="html">
+        <source>SKONTAKTUJ SIĘ!</source>
+      </trans-unit>
+      <trans-unit id="4348946485831768929" datatype="html">
+        <source>SPRAWDŹ UDEMY!</source>
+      </trans-unit>
+      <trans-unit id="8886436268032629140" datatype="html">
+        <source>ANGULAR 15 + FIREBASE</source>
+      </trans-unit>
+      <trans-unit id="1217323728064143582" datatype="html">
+        <source>Intro Kursu Udemy</source>
+      </trans-unit>
+      <trans-unit id="1818329799132396221" datatype="html">
+        <source>W tym kursie nauczysz się, jak stworzyć aplikację Angular od podstaw i wdrożyć ją za pomocą Firebase. Zaimplementujemy funkcjonalność CRUD, a także omówimy temat uwierzytelniania użytkowników.</source>
+      </trans-unit>
+      <trans-unit id="4625393075560458654" datatype="html">
+        <source>API - ANGULAR + DJANGO REST FRAMEWORK</source>
+      </trans-unit>
+      <trans-unit id="2213915915257042579" datatype="html">
+        <source>W tej aplikacji, korzystając z API, stworzymy pełną aplikację full-stack, gdzie Django Rest Framework będzie obsługiwał backend, a frontend zostanie zbudowany przy użyciu Angulara. Przejdziemy przez wszystkie operacje CRUD, przetestujemy endpointy za pomocą Postmana, a na koniec zaimplementujemy uwierzytelnianie użytkowników przy użyciu tokenów.</source>
+      </trans-unit>
+      <trans-unit id="608577169346475018" datatype="html">
+        <source>Tworzenie Logowania</source>
+      </trans-unit>
+      <trans-unit id="6567642329177654886" datatype="html">
+        <source>Witamy w szybkim konfiguratorze uwierzytelniania w Angularze i Firebase. Naucz się, jak szybko i łatwo stworzyć funkcjonalność logowania.</source>
+      </trans-unit>
+      <trans-unit id="6065203656838318315" datatype="html">
+        <source>Copyright © 2024 - Code Brothers </source>
+      </trans-unit>
+      <trans-unit id="6989419209745235533" datatype="html">
+        <source>Kursy</source>
+      </trans-unit>
+      <trans-unit id="3925337106583791384" datatype="html">
+        <source>O nas</source>
+      </trans-unit>
+      <trans-unit id="397497450705980813" datatype="html">
+        <source>Kontakt</source>
+      </trans-unit>
+      <trans-unit id="2847242713388756885" datatype="html">
+        <source>
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon fontIcon=&quot;language&quot;&gt;"/>
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
+        </source>
+      </trans-unit>
+      <trans-unit id="4732769394260052477" datatype="html">
+        <source>Odmawiam</source>
+      </trans-unit>
+      <trans-unit id="521173628952498293" datatype="html">
+        <source>Polityka Cookie</source>
+      </trans-unit>
+      <trans-unit id="6338178643951537335" datatype="html">
+        <source>Ta witryna wykorzystuje pliki cookies, aby zapewnić najlepsze doświadczenia podczas korzystania z tej strony</source>
+      </trans-unit>
+      <trans-unit id="6773786754956670569" datatype="html">
+        <source>Dowiedz się więcej</source>
+      </trans-unit>
+      <trans-unit id="6921340928954309341" datatype="html">
+        <source>Akceptuje</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
