@@ -31,7 +31,8 @@ export class AppComponent {
 
   checkConsent() {
     const consent = this.cookieService.get('consent');
-    this.showCookieBanner = !consent; // Show banner if consent is not given
+    const consentGiven = localStorage.getItem('consentGiven');
+    this.showCookieBanner = !(consent || consentGiven); // Show banner if consent is not given
   }
 
   openCookieBanner() {

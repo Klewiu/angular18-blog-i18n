@@ -25,27 +25,31 @@ export class CookieBannerComponent {
 
   acceptChosen() {
     this.setCookies();
+    localStorage.setItem('consentGiven', 'true'); // Set consent given
     this.bannerVisible = false; // Hide the banner
     this.refreshPage(); // Trigger refresh after accepting chosen cookies
   }
-
+  
   acceptAll() {
     this.performanceCookies = true;
     this.analyticsCookies = true;
     this.marketingCookies = true;
     this.setCookies();
+    localStorage.setItem('consentGiven', 'true'); // Set consent given
     this.bannerVisible = false; // Hide the banner
     this.refreshPage(); // Trigger refresh after accepting all cookies
   }
-
+  
   denyAll() {
     this.performanceCookies = false;
     this.analyticsCookies = false;
     this.marketingCookies = false;
     this.setCookies();
+    localStorage.removeItem('consentGiven'); // Optionally remove consent
     this.bannerVisible = false; // Hide the banner
     this.refreshPage(); // Trigger refresh after denying cookies
   }
+  
 
   setCookies() {
     this.cookieService.set('performance', String(this.performanceCookies));
@@ -59,6 +63,7 @@ export class CookieBannerComponent {
     this.analyticsCookies = false;
     this.marketingCookies = false;
     this.bannerVisible = true; // Show the banner again
+    localStorage.removeItem('consentGiven'); // Clear consent
   }
 
   refreshPage() {

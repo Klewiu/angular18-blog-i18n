@@ -100,33 +100,41 @@
           <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
         </target>
       </trans-unit>
-      <trans-unit id="5501062404767667966" datatype="html">
-        <source>Cookie Consent</source>
-        <target state="new">Cookie Consent</target>
+      <trans-unit id="7711523699799646276" datatype="html">
+        <source>Preferencje cookies</source>
+        <target state="new">Cookie preferences</target>
       </trans-unit>
-      <trans-unit id="842523630655525560" datatype="html">
-        <source>We use cookies to enhance your experience. Please select your preferences:</source>
-        <target state="new">We use cookies to enhance your experience. Please select your preferences:</target>
+      <trans-unit id="1813663547589027058" datatype="html">
+        <source>Niezbędne</source>
+        <target state="new">Necessary</target>
       </trans-unit>
-      <trans-unit id="7373212436902992135" datatype="html">
-        <source>Performance Cookies</source>
-        <target state="new">Performance Cookies</target>
+      <trans-unit id="2412558648019263605" datatype="html">
+        <source>Funkcjonalne</source>
+        <target state="new">Functional</target>
       </trans-unit>
-      <trans-unit id="4616358288735313702" datatype="html">
-        <source>Analytics Cookies</source>
-        <target state="new">Analytics Cookies</target>
+      <trans-unit id="6515524111756666297" datatype="html">
+        <source>Analityczne</source>
+        <target state="new">Analitics</target>
       </trans-unit>
-      <trans-unit id="1246902654590075969" datatype="html">
-        <source>Marketing Cookies</source>
-        <target state="new">Marketing Cookies</target>
+      <trans-unit id="2393328392000802197" datatype="html">
+        <source>Marketingowe</source>
+        <target state="new">Marketing</target>
       </trans-unit>
-      <trans-unit id="1825478960092492535" datatype="html">
-        <source>Zaakceptuj</source>
-        <target state="new">Zaakceptuj</target>
+      <trans-unit id="7896207391634298339" datatype="html">
+        <source>Odrzuć</source>
+        <target state="new">Deny</target>
       </trans-unit>
-      <trans-unit id="1815454338196268556" datatype="html">
-        <source>Odwołaj</source>
-        <target state="new">Odwołaj</target>
+      <trans-unit id="5030439890588443107" datatype="html">
+        <source>Akceptuj wybrane</source>
+        <target state="new">Accept selected</target>
+      </trans-unit>
+      <trans-unit id="1779666138928895350" datatype="html">
+        <source>Akceptuj wszystkie</source>
+        <target state="new">Accept all</target>
+      </trans-unit>
+      <trans-unit id="8737798880293200030" datatype="html">
+        <source> Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji. Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony. Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą. Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania. Więcej infomacji znajdziesz w <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;privacy-policy&apos;]&quot; class=&quot;privacy-link&quot; (click)=&quot;closeBanner()&quot;&gt;"/>Polityka prywatności<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target state="new"> We use cookies to help you navigate efficiently and perform certain functions. Cookies classified as "Necessary" are stored in your browser because they are essential for the basic functioning of the website. We also use third-party cookies that help us analyze how you use this site, store your preferences, and deliver content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose whether to enable or disable some or all of these cookies, but disabling some of them may affect your browsing experience. For more information, see our <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;privacy-policy&apos;]&quot; class=&quot;privacy-link&quot; (click)=&quot;closeBanner()&quot;&gt;"/>Privacy Policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
       </trans-unit>
     </body>
   </file>
