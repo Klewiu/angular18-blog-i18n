@@ -1,0 +1,92 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.cookie-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cookie-banner h3 {
+  text-align: left;
+  margin: 0 0 10px 0;
+  font-size: 1.1rem; /* Zmniejszenie rozmiaru nagłówka */
+  color: #333;
+}
+
+.cookie-banner small {
+  font-size: 0.85rem; /* Mniejszy rozmiar tekstu */
+  text-align: left;
+  color: #666;
+  line-height: 1.4;
+}
+
+.cookie-options {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cookie-banner-actions button {
+  padding: 6px 12px; /* Mniejsze przyciski */
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.deny-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.accept-chosen-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.accept-all-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .cookie-options {
+    flex-direction: column; /* Na mobilnych urządzeniach ustawienie suwaków w kolumnie */
+  }
+
+  .cookie-banner-actions {
+    flex-direction: row; /* Przyciski w jednym rzędzie na mobilnych */
+    flex-wrap: nowrap;
+  }
+
+  .cookie-banner h3 {
+    font-size: 1rem; /* Dostosowanie nagłówka na mobilnych */
+  }
+
+  .cookie-banner small {
+    font-size: 0.75rem; /* Dostosowanie tekstu na mobilnych */
+  }
+
+  .cookie-banner-actions button {
+    font-size: 0.7rem; /* Mniejsze przyciski na mobilnych */
+  }
+}

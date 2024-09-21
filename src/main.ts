@@ -1,16 +1,13 @@
-/// <reference types="@angular/localize" />
-
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
-
-
-import {provideNgcCookieConsent} from 'ngx-cookieconsent';
-
+import { provideNgcCookieConsent } from 'ngx-cookieconsent';
+import { CookieService } from 'ngx-cookie-service';
 
 bootstrapApplication(AppComponent, {
-  ...appConfig, // Spread the existing appConfig
+  ...appConfig,
   providers: [
-    ...(appConfig.providers || []), // Keep existing providers from appConfig, // Add cookie consent provider
+    ...(appConfig.providers || []),
+    CookieService, // Add CookieService here
   ]
 }).catch((err) => console.error(err));

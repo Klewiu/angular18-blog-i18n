@@ -1,0 +1,29 @@
+<div *ngIf="bannerVisible" class="cookie-banner">
+    <div class="cookie-banner-content">
+      <h3 i18n>Preferencje cookies</h3>
+      <small>
+        Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji.
+        Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony.
+        Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. 
+        Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą.
+        Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania.
+        Więcej infomacji znajdziesz w 
+        <a [routerLink]="['privacy-policy']" class="privacy-link" (click)="closeBanner()">Polityka prywatności</a>
+      </small>
+  
+      <div class="cookie-options">
+        <mat-slide-toggle i18n [checked]="true" disabled>Niezbędne</mat-slide-toggle>
+        <mat-slide-toggle i18n [(ngModel)]="performanceCookies">Funkcjonalne</mat-slide-toggle>
+        <mat-slide-toggle i18n [(ngModel)]="analyticsCookies">Analityczne</mat-slide-toggle>
+        <mat-slide-toggle i18n [(ngModel)]="marketingCookies">Marketingowe</mat-slide-toggle>
+      </div>
+  
+      <div class="cookie-banner-actions">
+        
+        <button mat-flat-button class="deny-button" i18n (click)="denyAll()">Odrzuć</button>
+        <button mat-flat-button class="accept-chosen-button" i18n (click)="acceptChosen()">Akceptuj wybrane</button>
+        <button mat-flat-button color="primary" class="accept-all-button" i18n (click)="acceptAll()">Akceptuj wszystkie</button>
+      </div>
+    </div>
+  </div>
+  

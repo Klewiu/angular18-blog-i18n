@@ -74,20 +74,26 @@
           <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
         </source>
       </trans-unit>
-      <trans-unit id="4732769394260052477" datatype="html">
-        <source>Odmawiam</source>
+      <trans-unit id="1246902654590075969" datatype="html">
+        <source>Marketing Cookies</source>
       </trans-unit>
-      <trans-unit id="521173628952498293" datatype="html">
-        <source>Polityka Cookie</source>
+      <trans-unit id="1815454338196268556" datatype="html">
+        <source>Odwołaj</source>
       </trans-unit>
-      <trans-unit id="6338178643951537335" datatype="html">
-        <source>Ta witryna wykorzystuje pliki cookies, aby zapewnić najlepsze doświadczenia podczas korzystania z tej strony</source>
+      <trans-unit id="1825478960092492535" datatype="html">
+        <source>Zaakceptuj</source>
       </trans-unit>
-      <trans-unit id="6773786754956670569" datatype="html">
-        <source>Dowiedz się więcej</source>
+      <trans-unit id="4616358288735313702" datatype="html">
+        <source>Analytics Cookies</source>
       </trans-unit>
-      <trans-unit id="6921340928954309341" datatype="html">
-        <source>Akceptuje</source>
+      <trans-unit id="5501062404767667966" datatype="html">
+        <source>Cookie Consent</source>
+      </trans-unit>
+      <trans-unit id="7373212436902992135" datatype="html">
+        <source>Performance Cookies</source>
+      </trans-unit>
+      <trans-unit id="842523630655525560" datatype="html">
+        <source>We use cookies to enhance your experience. Please select your preferences:</source>
       </trans-unit>
     </body>
   </file>
