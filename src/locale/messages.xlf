@@ -32,9 +32,6 @@
       <trans-unit id="7533188340424806796" datatype="html">
         <source>SKONTAKTUJ SIĘ!</source>
       </trans-unit>
-      <trans-unit id="4348946485831768929" datatype="html">
-        <source>SPRAWDŹ UDEMY!</source>
-      </trans-unit>
       <trans-unit id="8886436268032629140" datatype="html">
         <source>ANGULAR 15 + FIREBASE</source>
       </trans-unit>
@@ -74,32 +71,17 @@
           <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/>
         </source>
       </trans-unit>
-      <trans-unit id="1779666138928895350" datatype="html">
-        <source>Akceptuj wszystkie</source>
-      </trans-unit>
-      <trans-unit id="1813663547589027058" datatype="html">
-        <source>Niezbędne</source>
-      </trans-unit>
-      <trans-unit id="2393328392000802197" datatype="html">
-        <source>Marketingowe</source>
-      </trans-unit>
-      <trans-unit id="2412558648019263605" datatype="html">
-        <source>Funkcjonalne</source>
-      </trans-unit>
-      <trans-unit id="5030439890588443107" datatype="html">
-        <source>Akceptuj wybrane</source>
-      </trans-unit>
-      <trans-unit id="6515524111756666297" datatype="html">
-        <source>Analityczne</source>
-      </trans-unit>
       <trans-unit id="7711523699799646276" datatype="html">
         <source>Preferencje cookies</source>
       </trans-unit>
-      <trans-unit id="7896207391634298339" datatype="html">
-        <source>Odrzuć</source>
+      <trans-unit id="1960091785450535837" datatype="html">
+        <source>Jeśli lubisz korzystać z Angulara do tworzenia aplikacji internetowych i chcesz nauczyć się, jak zaimplementować wirtualne wycieczki w swoim projekcie, ten kurs jest dla Ciebie.</source>
       </trans-unit>
-      <trans-unit id="8737798880293200030" datatype="html">
-        <source> Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji. Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony. Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą. Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania. Więcej infomacji znajdziesz w <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;privacy-policy&apos;]&quot; class=&quot;privacy-link&quot; (click)=&quot;closeBanner()&quot;&gt;"/>Polityka prywatności<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+      <trans-unit id="3366259392904416367" datatype="html">
+        <source> Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji. Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony. Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą. Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania. Więcej infomacji znajdziesz w </source>
+      </trans-unit>
+      <trans-unit id="5767548133581742926" datatype="html">
+        <source>Angular 18: Firebase Authentication + Pannellum Virtual Tour</source>
       </trans-unit>
     </body>
   </file>

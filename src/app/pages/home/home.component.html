@@ -1,40 +1,41 @@
-<!-- Marketing section -->
-<div class="home-headline-text">
-  <button i18n mat-flat-button (click)="redirectToUdemy()">SPRAWDŹ UDEMY!</button>
-</div>
-
 <!-- CARDS SECTION -->
 <div class="cards-div">
-  <!-- CARD CONTAINER -->
-  <div class="card-container" *ngFor="let tile of paginatedTiles" >
+  <div class="card-container" *ngFor="let tile of paginatedTiles">
     <mat-card class="course-card" appearance="outlined">
-      <!-- CARD HEADER -->
       <div class="card-header">
         <div class="card-title">{{ tile.title }}</div>
         <div class="card-subtitle">{{ tile.subtitle }}</div>
       </div>
-      <!-- IFRAME SECTION -->
-      <iframe 
-      [src]="tile.videoUrl | safeUrl"
-      width="100%" 
-      height="500px" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-    </iframe>
+      <!-- <div *ngIf="areAllConsentsGiven(); else noConsent"> -->
+        <iframe 
+          [src]="tile.videoUrl | safeUrl"
+          width="100%" 
+          height="500px" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
+      <!-- </div> -->
+      <!-- <ng-template #noConsent>
+        <p i18n style="text-align: center; color: darkblue; font-weight: bold;">Użytkowniku, aby poprawnie wyświetlać filmy YouTube, musisz zaakceptować wszystkie zgody dotyczące cookies!</p>
+      </ng-template> -->
       <mat-card-content>
-        <p> {{ tile.content }} </p>
+        <p>{{ tile.content }}</p>
       </mat-card-content>
+      <mat-card-actions class="card-actions-container">
+        <button mat-button (click)="openCourseUrl(tile.courseUrl)">UDEMY LINK</button>
+      </mat-card-actions>
     </mat-card>
   </div>
 </div>
 
-<div class="home-paginator">
+<div class="div home-paginator">
   <mat-paginator 
-    [length]="tiles.length"
-    [pageSize]="4"
-    (page)="handlePageEvent($event)">
+    [length]="tiles.length" 
+    pageSize="4" 
+    (page)="handlePageEvent($event)"
+    aria-label="Select page">
   </mat-paginator>
 </div>

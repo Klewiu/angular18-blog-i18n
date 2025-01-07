@@ -5,7 +5,9 @@ import { CommonModule } from '@angular/common';
 import { CookieService } from 'ngx-cookie-service';
 import { RouterModule } from '@angular/router'; 
 
-import {MatButtonModule} from '@angular/material/button';
+import { CookieManagementService } from '../../services/cookie-management.service';
+
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-cookie-banner',
@@ -15,64 +17,93 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [MatSlideToggleModule, FormsModule, CommonModule, MatButtonModule, RouterModule]
 })
 export class CookieBannerComponent {
-  necessaryCookies = true; // Always allowed
-  performanceCookies = false;
-  analyticsCookies = false;
-  marketingCookies = false;
-  @Input() bannerVisible = true; // This controls the visibility
+  // necessaryCookies = true; // Always allowed
+  // performanceCookies = false;
+  // analyticsCookies = false;
+  // marketingCookies = false;
+  // @Input() bannerVisible = true; // This controls the visibility
 
-  constructor(private cookieService: CookieService) {}
+  // constructor(
+  //   private cookieService: CookieService,
+  //   private cookieManagementService: CookieManagementService
+  // ) {}
 
-  acceptChosen() {
-    this.setCookies();
-    localStorage.setItem('consentGiven', 'true'); // Set consent given
-    this.bannerVisible = false; // Hide the banner
-    this.refreshPage(); // Trigger refresh after accepting chosen cookies
-  }
-  
-  acceptAll() {
-    this.performanceCookies = true;
-    this.analyticsCookies = true;
-    this.marketingCookies = true;
-    this.setCookies();
-    localStorage.setItem('consentGiven', 'true'); // Set consent given
-    this.bannerVisible = false; // Hide the banner
-    this.refreshPage(); // Trigger refresh after accepting all cookies
-  }
-  
-  denyAll() {
-    this.performanceCookies = false;
-    this.analyticsCookies = false;
-    this.marketingCookies = false;
-    this.setCookies();
-    localStorage.removeItem('consentGiven'); // Optionally remove consent
-    this.bannerVisible = false; // Hide the banner
-    this.refreshPage(); // Trigger refresh after denying cookies
-  }
-  
+  ngOnInit() {
+    // const performance = this.cookieService.get('performance') === 'true';
+    // const analytics = this.cookieService.get('analytics') === 'true';
+    // const marketing = this.cookieService.get('marketing') === 'true';
 
-  setCookies() {
-    this.cookieService.set('performance', String(this.performanceCookies));
-    this.cookieService.set('analytics', String(this.analyticsCookies));
-    this.cookieService.set('marketing', String(this.marketingCookies));
-    this.cookieService.set('consent', 'true'); // Indicate that consent was given
+    // this.performanceCookies = performance;
+    // this.analyticsCookies = analytics;
+    // this.marketingCookies = marketing;
   }
 
-  resetBanner() {
-    this.performanceCookies = false;
-    this.analyticsCookies = false;
-    this.marketingCookies = false;
-    this.bannerVisible = true; // Show the banner again
-    localStorage.removeItem('consentGiven'); // Clear consent
-  }
+  // acceptChosen() {
+  //   this.setCookies();
+  //   localStorage.setItem('consentGiven', 'true'); // Set consent given
+  //   this.bannerVisible = false; // Hide the banner
+  //   this.refreshPage(); // Trigger refresh after accepting chosen cookies
+  // }
 
-  refreshPage() {
-    // This triggers a page refresh to ensure the cookie changes are reflected
-    window.location.reload();
-  }
+  // acceptAll() {
+  //   this.performanceCookies = true;
+  //   this.analyticsCookies = true;
+  //   this.marketingCookies = true;
+  //   this.setCookies();
+  //   localStorage.setItem('consentGiven', 'true'); // Set consent given
+  //   this.bannerVisible = false; // Hide the banner
+  //   this.refreshPage(); // Trigger refresh after accepting all cookies
+  // }
 
-  closeBanner() {
-    this.bannerVisible = false;
-  }
-  
+  // denyAll() {
+  //   this.performanceCookies = false;
+  //   this.analyticsCookies = false;
+  //   this.marketingCookies = false;
+  //   this.setCookies();
+  //   // this.cookieManagementService.deleteCookie('usprivacy');
+  //   localStorage.removeItem('consentGiven'); // Optionally remove consent
+  //   this.bannerVisible = false; // Hide the banner
+  //   this.refreshPage(); // Trigger refresh after denying cookies
+  // }
+
+  // setCookies() {
+  //   // Block categories based on user's consent
+  //   if (!this.performanceCookies) {
+  //     this.cookieManagementService.blockCookiesByCategory('performance');
+  //     // this.cookieManagementService.deleteCookie('usprivacy');
+  //   }
+  //   if (!this.analyticsCookies) {
+  //     this.cookieManagementService.blockCookiesByCategory('analytics');
+  //   }
+  //   if (!this.marketingCookies) {
+  //     this.cookieManagementService.blockCookiesByCategory('marketing');
+  //   }
+
+  //   // Ustaw datę wygaśnięcia na miesiąc
+  //   const expiryDate = new Date();
+  //   expiryDate.setMonth(expiryDate.getMonth() + 1); // Ustaw datę wygaśnięcia na miesiąc
+
+  //   // Set cookies for consent with expiry
+  //   this.cookieService.set('performance', String(this.performanceCookies), expiryDate);
+  //   this.cookieService.set('analytics', String(this.analyticsCookies), expiryDate);
+  //   this.cookieService.set('marketing', String(this.marketingCookies), expiryDate);
+  //   this.cookieService.set('consent', 'true', expiryDate); // Indicate that consent was given
+  // }
+
+  // resetBanner() {
+  //   this.performanceCookies = false;
+  //   this.analyticsCookies = false;
+  //   this.marketingCookies = false;
+  //   this.bannerVisible = true; // Show the banner again
+  //   localStorage.removeItem('consentGiven'); // Clear consent
+  // }
+
+  // refreshPage() {
+  //   // This triggers a page refresh to ensure the cookie changes are reflected
+  //   window.location.reload();
+  // }
+
+  // closeBanner() {
+  //   this.bannerVisible = false;
+  // }
 }
