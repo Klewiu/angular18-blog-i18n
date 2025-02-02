@@ -25,35 +25,43 @@ interface Tile {
 export class HomeComponent implements OnInit {
   tiles: Tile[] = [
     {
+      title: $localize `ANGULAR 18: MULTILLINGUAL APP, INTERNACIONALIZATION`,
+      subtitle: $localize `Intro Kursu Udemy`,
+      videoUrl: 'https://www.youtube.com/embed/WGZXpAz0sKg?si=VT6IQptHxy91D9fp',
+      content: $localize `Naucz się jak stworzyć i wyprodukować aplikację obsługującą wiele języków. Aplikacja w formie wideobloga`,
+      courseUrl: 'https://www.udemy.com/course/angular-18-video-blog-i18n-firebase-internacionalization/?referralCode=CD81FB732E8FC862440A'
+    },
+    {
       title: $localize `ANGULAR 18 + PANNELLUM VIRTUAL TOUR`,
       subtitle: $localize `Intro Kursu Udemy`,
       videoUrl: 'https://www.youtube.com/embed/IuhNB3ZkqLo?si=-kpSwt-rEQ8q158G',
       content: $localize `Jeśli lubisz korzystać z Angulara do tworzenia aplikacji internetowych
                            i chcesz nauczyć się, jak zaimplementować wirtualne wycieczki w swoim projekcie, 
                            ten kurs jest dla Ciebie.`,
-      courseUrl: 'https://www.udemy.com/course/angular-18-firebase-authentication-pannellum-virtual-tour'
+      courseUrl: 'https://www.udemy.com/course/angular-18-firebase-authentication-pannellum-virtual-tour/?referralCode=3ADFAFA3D6BF324798DD'
     },
     {
       title: $localize `ANGULAR 15 + FIREBASE`,
       subtitle: $localize `Intro Kursu Udemy`,
       videoUrl: 'https://www.youtube.com/embed/HIuJI1u2ltk?si=i9m1Hjdh9FguEBTd',
       content: $localize `W tym kursie nauczysz się, jak stworzyć aplikację Angular od podstaw i wdrożyć ją za pomocą Firebase. Zaimplementujemy funkcjonalność CRUD, a także omówimy temat uwierzytelniania użytkowników.`,
-      courseUrl: 'https://www.udemy.com/course/angular-firebase-crud-auth-deployment-2024/'
+      courseUrl: 'https://www.udemy.com/course/angular-firebase-crud-auth-deployment-2024/?referralCode=0BA1F2B531FB614016FE'
     },
     {
       title: $localize `API - ANGULAR + DJANGO REST FRAMEWORK`,
       subtitle: $localize `Intro Kursu Udemy`,
       videoUrl: 'https://www.youtube.com/embed/pgkSiXiESXE?si=v_ZhukOJKl5zm1_Y',
       content: $localize `W tej aplikacji, korzystając z API, stworzymy pełną aplikację full-stack, gdzie Django Rest Framework będzie obsługiwał backend, a frontend zostanie zbudowany przy użyciu Angulara. Przejdziemy przez wszystkie operacje CRUD, przetestujemy endpointy za pomocą Postmana, a na koniec zaimplementujemy uwierzytelnianie użytkowników przy użyciu tokenów.`,
-      courseUrl: 'https://www.udemy.com/course/restful-api-with-angular-django-learn-crud-auth-2024/'
+      courseUrl: 'https://www.udemy.com/course/restful-api-with-angular-django-learn-crud-auth-2024/?referralCode=B2E03CB00AF080C23514'
     },
     {
       title: $localize `ANGULAR 15 + FIREBASE`,
       subtitle: $localize `Tworzenie Logowania`,
       videoUrl: 'https://www.youtube.com/embed/UddtyVrC9qQ?si=CMuQi_sfAcuxNxyS',
       content: $localize `Witamy w szybkim konfiguratorze uwierzytelniania w Angularze i Firebase. Naucz się, jak szybko i łatwo stworzyć funkcjonalność logowania.`,
-      courseUrl: 'https://www.udemy.com/course/angular-firebase-crud-auth-deployment-2024/'
+      courseUrl: 'https://www.udemy.com/course/angular-firebase-crud-auth-deployment-2024/?referralCode=0BA1F2B531FB614016FE'
     },
+    
     
   ];
 

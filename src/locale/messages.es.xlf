@@ -100,10 +100,6 @@
         <source>Preferencje cookies</source>
         <target state="new">Preferencias de cookies</target>
       </trans-unit>
-      <trans-unit id="5767548133581742926" datatype="html">
-        <source>Angular 18: Firebase Authentication + Pannellum Virtual Tour</source>
-        <target state="new">Angular 18: Firebase Authentication + Pannellum Virtual Tour</target>
-      </trans-unit>
       <trans-unit id="1960091785450535837" datatype="html">
         <source>Jeśli lubisz korzystać z Angulara do tworzenia aplikacji internetowych i chcesz nauczyć się, jak zaimplementować wirtualne wycieczki w swoim projekcie, ten kurs jest dla Ciebie.</source>
         <target state="new">Si te gusta usar Angular para desarrollar aplicaciones web y quieres aprender cómo implementar recorridos virtuales en tu proyecto, este curso es para ti.</target>
@@ -111,6 +107,18 @@
       <trans-unit id="3366259392904416367" datatype="html">
         <source> Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji. Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony. Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą. Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania. Więcej infomacji znajdziesz w </source>
         <target state="new"> Używamy plików cookie, aby pomóc Ci w sprawnym poruszaniu się i wykonywaniu określonych funkcji. Pliki cookie zaklasyfikowane jako „Niezbędne” są przechowywane w Twojej przeglądarce, ponieważ są one niezbędne do podstawowego funkcjonowania strony. Używamy również plików cookie innych firm, które pomagają nam analizować, w jaki sposób korzystasz z tej strony, przechowywać Twoje preferencje oraz dostarczać treści i reklamy, które są dla Ciebie istotne. Te pliki cookie będą przechowywane w Twojej przeglądarce tylko za Twoją wcześniejszą zgodą. Możesz wybrać, czy chcesz włączyć lub wyłączyć niektóre lub wszystkie z tych plików cookie, ale wyłączenie niektórych z nich może wpłynąć na komfort przeglądania. Więcej infomacji znajdziesz w </target>
+      </trans-unit>
+      <trans-unit id="4310096841580514212" datatype="html">
+        <source>ANGULAR 18: MULTILLINGUAL APP, INTERNACIONALIZATION</source>
+        <target state="new">ANGULAR 18: MULTILLINGUAL APP, INTERNACIONALIZATION</target>
+      </trans-unit>
+      <trans-unit id="4350661133975502972" datatype="html">
+        <source>Naucz się jak stworzyć i wyprodukować aplikację obsługującą wiele języków. Aplikacja w formie wideobloga</source>
+        <target state="new">Aprende a crear y desarrollar una aplicación multilingüe. La aplicación está en forma de videoblog.</target>
+      </trans-unit>
+      <trans-unit id="2118314242225108603" datatype="html">
+        <source>ANGULAR 18 + PANNELLUM VIRTUAL TOUR</source>
+        <target state="new">ANGULAR 18 + PANNELLUM VIRTUAL TOUR</target>
       </trans-unit>
     </body>
   </file>
