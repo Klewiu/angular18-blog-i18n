@@ -1,27 +1,31 @@
-# Angular18BlogI18n
+# Angular18 Blog i18n 🎥🌍
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+![Angular](https://img.shields.io/badge/Angular-18-red?logo=angular&logoColor=white) ![Status](https://img.shields.io/badge/status-active-brightgreen)  
 
-## Development server
+**Angular18BlogI18n** is a modern **video blog / educational blog** built with **Angular 18**, showcasing Udemy courses and additional learning materials in a **multilingual (i18n)** format. Perfect for learning web development and front-end technologies.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project demonstrates **Angular 18**, internationalization, video content integration, and deployment on **Firebase Hosting**.  
 
-## Code scaffolding
+🔗 Check out the live version on **Code Brothers**: [https://code-brothers.eu/en-US/](https://code-brothers.eu/pl-PL/) – a video blog with programming courses and tutorials for the community.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🚀 Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Full-featured **video blog** with embedded content (YouTube, Udemy previews)  
+- **Multi-language support** (i18n)  
+- Responsive design  
+- Firebase deployment ready  
+- Practical coding examples from Udemy courses (Angular, front-end, best practices)  
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Technologies
 
-## Running end-to-end tests
+- **Angular 18** (CLI)  
+- **Angular i18n**  
+- **Angular Material + UI components**  
+- **Firebase Hosting & Backend**  
+- HTML, CSS, TypeScript  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
